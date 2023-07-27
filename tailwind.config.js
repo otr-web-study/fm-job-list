@@ -8,7 +8,7 @@ module.exports = {
         'radii-full': '50%',
       },
       boxShadow: {
-        main: 'rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px',
+        main: 'rgba(50, 50, 93, 0.1) 0px 16px 18px -2px',
       },
       backgroundImage: {
         'header-mobile': 'url("assets/images/bg-header-mobile.svg")',

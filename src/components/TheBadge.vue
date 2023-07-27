@@ -1,5 +1,12 @@
 <script setup lang="ts">
 const props = defineProps<{ clearable?: boolean }>();
+const emits = defineEmits<{
+  (e: 'delete-badge'): void;
+}>();
+
+const handleDelete = () => {
+  emits('delete-badge');
+};
 </script>
 
 <template>
@@ -10,6 +17,7 @@ const props = defineProps<{ clearable?: boolean }>();
     <button
       v-if="props.clearable"
       class="h-full w-8 cursor-pointer bg-primary bg-icon-remove bg-center bg-no-repeat text-gr-100 hover:bg-gr-900"
+      @click="handleDelete"
     >
       <span class="sr-only">delete</span>
     </button>
