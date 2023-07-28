@@ -3,7 +3,7 @@ import { defineStore } from 'pinia';
 import { type Category } from '@/types/JobPosition';
 
 export const useFilterStore = defineStore('filter-store', () => {
-  const filter = ref<Category[]>(['Frontend', 'CSS', 'JavaScript']);
+  const filter = ref<Category[]>([]);
 
   const addFilter = (category: Category) => {
     if (!filter.value.includes(category)) {
