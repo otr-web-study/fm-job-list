@@ -16,7 +16,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://your-solution-url.com)
+- Solution URL: (https://www.frontendmentor.io/solutions/job-listings-with-filtering-solution-UCyy8d1-a9)
 - Live Site URL: (https://rad-concha-f8a7c1.netlify.app/)
 
 ### Built with
