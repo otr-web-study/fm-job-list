@@ -11,9 +11,9 @@ module.exports = {
         main: 'rgba(50, 50, 93, 0.1) 0px 16px 18px -2px',
       },
       backgroundImage: {
-        'header-mobile': 'url("assets/images/bg-header-mobile.svg")',
-        'header-desktop': 'url("assets/images/bg-header-desktop.svg")',
-        'icon-remove': 'url("assets/images/icon-remove.svg")',
+        'header-mobile': 'url("/assets/images/bg-header-mobile.svg")',
+        'header-desktop': 'url("/assets/images/bg-header-desktop.svg")',
+        'icon-remove': 'url("/assets/images/icon-remove.svg")',
       },
       colors: {
         primary: 'hsl(180, 29%, 50%)',
