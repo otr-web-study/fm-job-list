@@ -8,7 +8,7 @@ const positions = usePositions();
 </script>
 
 <template>
-  <div class="transla flex flex-col gap-12 overflow-hidden py-14 sm:gap-[22px] sm:py-[39px]">
+  <div class="flex flex-col gap-12 overflow-hidden pb-20 pt-14 sm:gap-[22px] sm:pt-[39px]">
     <TransitionGroup
       enter-active-class="duration-[400ms] ease"
       enter-from-class="opacity-0 translate-x-[60%]"
