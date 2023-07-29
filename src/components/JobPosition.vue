@@ -35,15 +35,12 @@ const badges = [
         <div class="flex items-center gap-6 sm:gap-4">
           <h3 class="text-xs font-bold text-primary sm:text-sm">{{ position.company }}</h3>
           <div class="flex flex-wrap items-center gap-[6px]">
-            <TheBadge
-              v-if="position.new"
-              class="min-h-[24px] rounded-radii bg-primary !text-gr-100"
-            >
+            <TheBadge v-if="position.new" class="min-h-[24px] rounded-full bg-primary !text-gr-100">
               <span class="pl-2 pr-[9px] pt-[3px] text-xs font-bold">NEW!</span>
             </TheBadge>
             <TheBadge
               v-if="position.featured"
-              class="min-h-[24px] rounded-radii !bg-gr-900 !text-gr-100"
+              class="min-h-[24px] rounded-full !bg-gr-900 !text-gr-100"
             >
               <span class="pl-2 pr-[9px] pt-[3px] text-xs font-bold">FEATURED</span>
             </TheBadge>
